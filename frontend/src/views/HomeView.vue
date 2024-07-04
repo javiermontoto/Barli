@@ -25,7 +25,7 @@ import { RouterLink } from 'vue-router'
               cercanos de manera fácil y rápida.
             </p>
             <p class="animate__animated animate__fadeInUp" style="animation-delay: 3s">
-              <a href="#" class="btn btn-primary">Saber más</a>
+              <a href="#about" class="btn btn-primary">Saber más</a>
             </p>
           </div>
         </div>
@@ -39,7 +39,7 @@ import { RouterLink } from 'vue-router'
               flamante cita.
             </p>
             <p class="animate__animated animate__fadeInUp" style="animation-delay: 3s">
-              <a href="#" class="btn btn-primary">Saber más</a>
+              <a href="#choose" class="btn btn-primary">Saber más</a>
             </p>
           </div>
         </div>
@@ -53,7 +53,7 @@ import { RouterLink } from 'vue-router'
               restaurantes.
             </p>
             <p class="animate__animated animate__fadeInUp" style="animation-delay: 3s">
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <a href="#choose" class="btn btn-primary">Learn More</a>
             </p>
           </div>
         </div>
@@ -192,7 +192,7 @@ import { RouterLink } from 'vue-router'
                   <div class="single-box">
                     <font-awesome-icon icon="y" class="icon-why"></font-awesome-icon>
                     <h2>Why <span>Choose Us?</span></h2>
-                    <p>Why not?</p>
+                    <p>Aplicacion pionera del mundo a junio de 2024 con estado de mesas libres en tiempo real</p>
                   </div>
                 </div>
               </div>
@@ -238,7 +238,7 @@ import { RouterLink } from 'vue-router'
               </div>
               <h2>John Doe</h2>
               <p>
-                <i>"En una ciudad con tanto turismo como sevilla, esta aplicación me hace saber si puedo tomarme algo en
+                <i>"En una ciudad con tanto turismo como Sevilla, esta aplicación me hace saber si puedo tomarme algo en
                   el centro o no"</i>
               </p>
               <h5>CONSUMIDOR <br /><span>Local</span></h5>
@@ -251,7 +251,7 @@ import { RouterLink } from 'vue-router'
               </div>
               <h2>John Doe</h2>
               <p>
-                <i>"Antes de decidir escoger el hotel en el que me estuve hospedando en madrid comprobé si los bares
+                <i>"Antes de decidir escoger el hotel en el que me estuve hospedando en Madrid comprobé si los bares
                   suelen estar llenos alrededor"</i>
               </p>
               <h5>CONSUMIDOR <br /><span>Extranjero</span></h5>

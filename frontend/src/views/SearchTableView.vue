@@ -76,7 +76,7 @@ export default {
       const { entity_id } = getClaimsFromToken(getAuthToken())
       const respCheckUserBook = await checkUserBook(entity_id)
       this.respCheckUserBookjson = await respCheckUserBook.json()
-      if (this.respCheckUserBookjson.length>0) {
+      if (this.respCheckUserBookjson.length > 0) {
         console.log(this.respCheckUserBookjson)
         this.showCurrentBook = true
       } else {
@@ -138,8 +138,6 @@ export default {
       const lat = event.latlng.lat;
       const lng = event.latlng.lng;
       this.buscarForm.mapCenter = [lat, lng];
-      // Display coordinates
-      alert(`Latitude: ${lat}, Longitude: ${lng}`);
     },
     async handleSubmit() {
       this.errorMessage = ''
@@ -243,7 +241,8 @@ export default {
           <div class="mb-2">
             <label class="form-check-label">¿Quieres la mesa en el exterior?</label>
             <div class="form-check mt-1">
-              <input type="checkbox" v-model="buscarForm.exterior" id="ubicacion" class="form-check-input"> Sí, la quiero
+              <input type="checkbox" v-model="buscarForm.exterior" id="ubicacion" class="form-check-input"> Sí, la
+              quiero
               en el
               exterior.
             </div>
@@ -251,8 +250,9 @@ export default {
 
           <div class="mb-2">
             <label for="distancia" class="form-label">Distancia máxima desplazamiento (km): {{ buscarForm.distancia
-            }}</label>
-            <input type="range" v-model="buscarForm.distancia" id="distancia" class="form-range" min="1" max="5" step="1">
+              }}</label>
+            <input type="range" v-model="buscarForm.distancia" id="distancia" class="form-range" min="1" max="5"
+              step="1">
           </div>
 
           <div class="mb-2">
